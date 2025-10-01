@@ -330,6 +330,7 @@ footer {
 
     .hero-text {
         padding-right: 0;
+        text-align: center;
     }
 
     .hero-text h1 {
@@ -338,6 +339,11 @@ footer {
 
     .subtitle {
         font-size: 16px;
+    }
+
+    .btn-primary {
+        display: block;
+        margin: 0 auto;
     }
 
     .problems h2,
