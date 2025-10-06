@@ -37,7 +37,7 @@ We build customized "business buddies" - AI partners tailored to your needs - so
 
 ## Contact
 
-- **Email**: shechtmankyle@gmail.com
+- **Email**: databuddiessolutions@gmail.com
 - **Book a Demo**: [Cal.com scheduling link](https://cal.com/kyle-shechtman-7ydquo/15min?overlayCalendar=true)
 
 ---
