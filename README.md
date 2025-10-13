@@ -1,45 +1,63 @@
-# Agent House Landing Page
+# Data Buddies Solutions
 
-A simple, warm landing page for Agent House - AI automation consultants helping small businesses streamline their workflows.
+A Next.js landing page for Data Buddies Solutions - AI automation for small businesses.
 
-## About Agent House
+## Getting Started
 
-We build customized "business buddies" - AI partners tailored to your needs - so you can offload the repetitive work and focus on growing what matters most.
+First, install dependencies:
 
-## Features
+```bash
+npm install
+```
 
-- **Clean, approachable design** with warm color palette
-- **Responsive layout** that works on all devices
-- **Direct contact integration** with Cal.com scheduling
-- **Simple static HTML/CSS** for fast loading
+Then, run the development server:
 
-## Services Highlighted
+```bash
+npm run dev
+```
 
-- Schedule & Follow Up automation
-- Data insights and pattern recognition
-- Administrative task handling
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
+npm start
+```
+
+## Deploy on Vercel
+
+The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/new).
 
 ## Tech Stack
 
-- HTML5
-- CSS3 (with responsive design)
-- No frameworks - pure vanilla code for maximum performance
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- Next.js App Router
 
-## Local Development
+## Structure
 
-1. Clone this repository
-2. Open a terminal in the project directory
-3. Start a local server:
-   ```bash
-   python3 -m http.server 8000
-   ```
-4. Open `http://localhost:8000` in your browser
+- `/app` - Next.js App Router pages and components
+- `/app/components` - React components (Header, Hero, Features, etc.)
+- `/public` - Static assets (images, llms.txt)
+- `/app/globals.css` - Global styles
+
+## SEO
+
+- Metadata configured in `app/layout.tsx`
+- Dynamic sitemap at `app/sitemap.ts`
+- Robots.txt at `app/robots.ts`
+- LLM instructions at `public/llms.txt`
+
+## Missing Assets
+
+The hero image (`hero-isometric-removebg-preview.png`) needs to be added to the `/public` directory. This image was not in git history.
 
 ## Contact
 
 - **Email**: databuddiessolutions@gmail.com
 - **Book a Demo**: [Cal.com scheduling link](https://cal.com/kyle-shechtman-7ydquo/15min?overlayCalendar=true)
-
----
-
-*Built with ❤️ for small businesses who deserve their own AI automation buddy.*
