@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import Problems from "./components/Problems";
-import Features from "./components/Features";
+import Process from "./components/Process";
 import CTA from "./components/CTA";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <Problems />
-      <Features />
+      <Process />
       <CTA />
     </>
   );

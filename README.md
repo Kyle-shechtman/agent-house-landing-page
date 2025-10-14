@@ -42,7 +42,7 @@ The easiest way to deploy this Next.js app is to use the [Vercel Platform](https
 ## Structure
 
 - `/app` - Next.js App Router pages and components
-- `/app/components` - React components (Header, Hero, Features, etc.)
+- `/app/components` - React components (Header, Hero, Problems, Process, etc.)
 - `/public` - Static assets (images, llms.txt)
 - `/app/globals.css` - Global styles
 
