@@ -10,7 +10,7 @@ const organizationSchema = {
   "@type": "ProfessionalService",
   name: "Data Buddies Solutions",
   url: "https://databuddiessolutions.com",
-  logo: "https://databuddiessolutions.com/favicon.svg",
+  logo: "https://databuddiessolutions.com/favicon.png",
   description:
     "Data Buddies Solutions builds AI automation for small and midsize businesses, delivering workflow orchestration, intelligent agents, and analytics.",
   email: "databuddiessolutions@gmail.com",
@@ -43,7 +43,7 @@ const organizationSchema = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://databuddiessolutions.com"),
   title: {
-    default: "AI Automation for Small Businesses | Data Buddies Solutions",
+    default: "Data Buddies Solutions",
     template: "%s | Data Buddies Solutions",
   },
   description:
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     "hire AI automation consultant",
   ],
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favicon.png",
   },
   authors: [{ name: "Data Buddies Solutions" }],
   creator: "Data Buddies Solutions",
@@ -131,4 +131,3 @@ export default function RootLayout({
     </html>
   );
 }
-

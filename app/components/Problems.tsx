@@ -1,11 +1,4 @@
-import {
-  AlarmClock,
-  BarChart3,
-  Briefcase,
-  Cable,
-  ClipboardList,
-  Headset,
-} from "lucide-react";
+import { AlarmClock, BarChart3, ClipboardList } from "lucide-react";
 
 import { Badge } from "./ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
@@ -13,39 +6,21 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 const challenges = [
   {
     icon: AlarmClock,
-    title: "Lead follow-up slips through the cracks",
+    title: "Discover the potential of AI",
     description:
-      "Manual reminders and missed handoffs cost SMBs up to 30% of pipeline each quarter.",
+      "We help teams understand AI capabilities and uncover the highest-impact use cases.",
   },
   {
     icon: BarChart3,
-    title: "Insights buried in spreadsheets",
+    title: "Insights buried in databases",
     description:
-      "Customer and operations data lives in silos, making it hard to forecast demand or react quickly.",
+      "Gold mines of intelligence are waiting to be unlocked to boost revenue.",
   },
   {
     icon: ClipboardList,
     title: "Teams stuck in repetitive admin",
     description:
-      "Invoicing, scheduling, and reporting steal hours that could fuel growth initiatives.",
-  },
-  {
-    icon: Cable,
-    title: "Disconnected tools create chaos",
-    description:
-      "Legacy systems and modern SaaS rarely talk to each other and generate costly errors.",
-  },
-  {
-    icon: Headset,
-    title: "Customer experience feels impersonal",
-    description:
-      "Without AI co-pilots, support teams can’t provide real-time, data-backed answers.",
-  },
-  {
-    icon: Briefcase,
-    title: "No internal AI expertise",
-    description:
-      "Hiring experienced automation engineers is expensive—and the need to compete with AI is immediate.",
+      "Reduce mundane manual labor and work alongside experts who understand AI.",
   },
 ];
 
@@ -84,4 +59,3 @@ export default function Problems() {
     </section>
   );
 }
-

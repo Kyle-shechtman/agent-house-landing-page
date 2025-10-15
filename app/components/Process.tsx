@@ -33,12 +33,6 @@ const steps = [
   },
 ];
 
-const metrics = [
-  { value: "45+", label: "automation workflows launched" },
-  { value: "18%", label: "average operating costs reduced" },
-  { value: "12hrs", label: "average weekly time saved per team" },
-];
-
 export default function Process() {
   return (
     <section className="section bg-white" id="process">
@@ -55,19 +49,6 @@ export default function Process() {
               We combine automation engineering, AI model tuning, and change
               management so your team sees value in weeks—not quarters.
             </p>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-3 md:max-w-lg">
-            {metrics.map(({ value, label }) => (
-              <div
-                key={label}
-                className="rounded-2xl bg-muted/40 p-5 text-center shadow-sm"
-              >
-                <span className="text-3xl font-semibold text-accent">{value}</span>
-                <p className="mt-2 text-xs uppercase tracking-wide text-foreground/60">
-                  {label}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
         <div className="grid gap-6 lg:grid-cols-2">
@@ -103,4 +84,3 @@ export default function Process() {
     </section>
   );
 }
-

@@ -29,19 +29,9 @@ export default function BlogPage() {
             Playbooks for launching AI automations that move the needle.
           </h1>
           <p className="mx-auto max-w-2xl text-base text-foreground/70 md:text-lg">
-            Every article is built from real implementation experience—covering
+            Every article is built from real implementation experience, covering
             tooling, governance, prompts, and adoption strategies.
           </p>
-          <Button asChild size="lg" className="mx-auto">
-            <Link
-              href="https://cal.com/kyle-shechtman-7ydquo/15min?overlayCalendar=true"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Request a content collaboration
-              <ArrowUpRight className="h-4 w-4" />
-            </Link>
-          </Button>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {posts.map(({ slug, title, description, readingTime, date, tags }) => (
@@ -56,7 +46,7 @@ export default function BlogPage() {
                 <div className="flex flex-wrap items-center gap-4 text-xs uppercase tracking-wide text-foreground/50">
                   <span className="inline-flex items-center gap-1">
                     <CalendarDays className="h-3.5 w-3.5" aria-hidden />
-                    {new Date(date).toLocaleDateString("en-US", {
+                    {new Date(`${date}T00:00:00`).toLocaleDateString("en-US", {
                       month: "short",
                       day: "numeric",
                       year: "numeric",

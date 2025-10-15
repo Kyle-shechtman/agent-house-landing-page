@@ -25,12 +25,11 @@ export default function Footer() {
   return (
     <footer className="border-t border-border bg-background/80">
       <div className="mx-auto flex max-w-screen-xl flex-col gap-8 px-4 py-12 sm:px-6 lg:flex-row lg:items-start lg:justify-between lg:px-8">
-        <div className="max-w-xl space-y-3">
+        <div className="max-w-xl space-y-4">
           <h3 className="text-lg font-semibold text-foreground">Data Buddies Solutions</h3>
           <p className="text-sm leading-relaxed text-foreground/70">
-            We founded Data Buddies to bring enterprise-grade AI automation to small
-            and midsize businesses. Every engagement includes ethical guardrails,
-            transparent measurement, and automation that stays aligned with your team.
+            Your always-on business buddy that clears repetitive work and keeps operations humming.
+            We blend automation engineering, AI expertise, and change management so you can focus on growth.
           </p>
         </div>
         <div className="flex flex-col gap-4 text-sm text-foreground/70">

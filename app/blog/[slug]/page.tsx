@@ -11,9 +11,9 @@ import { Separator } from "@/app/components/ui/separator";
 import { getPostBySlug, posts } from "../posts";
 
 type PageProps = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 export function generateStaticParams() {
@@ -21,7 +21,8 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const post = getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
 
   if (!post) {
     return {
@@ -39,14 +40,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default function BlogPostPage({ params }: PageProps) {
-  const post = getPostBySlug(params.slug);
+export default async function BlogPostPage({ params }: PageProps) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
 
   if (!post) {
     notFound();
   }
 
-  const formattedDate = new Date(post.date).toLocaleDateString("en-US", {
+  const formattedDate = new Date(`${post.date}T00:00:00`).toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric",
@@ -67,7 +69,7 @@ export default function BlogPostPage({ params }: PageProps) {
       name: "Data Buddies Solutions",
       logo: {
         "@type": "ImageObject",
-        url: "https://databuddiessolutions.com/favicon.svg",
+        url: "https://databuddiessolutions.com/favicon.png",
       },
     },
     mainEntityOfPage: {
@@ -158,4 +160,3 @@ export default function BlogPostPage({ params }: PageProps) {
     </article>
   );
 }
-

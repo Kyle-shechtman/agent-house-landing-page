@@ -5,9 +5,9 @@ import { Badge } from "@/app/components/ui/badge";
 
 const faqs = [
   {
-    question: "What industries do you specialize in for AI automation?",
+    question: "Where does AI automation create the most value for small businesses?",
     answer:
-      "We partner primarily with professional services, financial services, healthcare operations, and technology-enabled small businesses. Most engagements involve automating revenue workflows, customer success, or back-office processes.",
+      "We focus on revenue, customer success, and operations—places where manual work gums up growth. We help you automate follow-up, reporting, and service workflows that directly improve retention and cash flow.",
   },
   {
     question: "How quickly can we launch an AI automation?",
@@ -15,9 +15,9 @@ const faqs = [
       "Our Automation Blueprint takes 2 weeks. Implementation timelines range from 4–8 weeks depending on integrations. We prioritize quick wins that deliver measurable ROI within the first month of launch.",
   },
   {
-    question: "What data security practices do you follow?",
+    question: "How much internal AI or data expertise do we need?",
     answer:
-      "We enforce least-privilege access, encrypt data in transit and at rest, and can deploy within your secure cloud environment or VPC when required.",
+      "None. We translate business goals into AI use cases, handle the technical plumbing, and build enablement so your team knows exactly how to use the new automation.",
   },
   {
     question: "Do you build custom AI agents or use off-the-shelf tools?",
@@ -25,9 +25,9 @@ const faqs = [
       "Both. We combine best-in-class platforms with custom orchestration and guardrails so each agent is tuned to your workflows, branding, and compliance requirements.",
   },
   {
-    question: "How do you ensure our team adopts the new automations?",
+    question: "How do we make sure the team actually uses the automation?",
     answer:
-      "Every engagement includes enablement, internal documentation, training sessions, and clear escalation paths. We also instrument analytics to monitor adoption and iterate quickly.",
+      "Every launch includes enablement, training sessions, and clear escalation paths. We instrument analytics to monitor adoption and user feedback so we can iterate quickly.",
   },
   {
     question: "Can you integrate with our existing CRM and finance tools?",
@@ -40,9 +40,9 @@ const faqs = [
       "Pricing depends on scope and support level. Most clients start with a project-based engagement for discovery and build, then move into a monthly optimization subscription for continuous improvements.",
   },
   {
-    question: "Do you help with content and knowledge base preparation?",
+    question: "How do we measure success once the automation is live?",
     answer:
-      "Absolutely. We help structure your knowledge base, clean datasets, and create prompt libraries so AI agents stay accurate and on-brand.",
+      "We define the KPIs up front—think response time, meetings booked, invoices processed—and set up dashboards so you can see ROI within the first few weeks.",
   },
 ];
 
@@ -70,29 +70,37 @@ export default function FAQPage() {
   };
 
   return (
-    <section className="section">
+    <section className="section bg-muted/40">
       <div className="mx-auto max-w-screen-xl space-y-10 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl space-y-4 text-center">
           <Badge variant="outline" className="w-fit uppercase">
             FAQ
           </Badge>
           <h1 className="text-3xl font-semibold md:text-4xl">
-            Answers to the questions founders, operators, and RevOps leads ask most.
+            Answers to the questions small business owners struggle with most.
           </h1>
           <p className="text-base text-foreground/70 md:text-lg">
-            Need something specific? Schedule a call and we’ll review your workflow,
-            data sources, and desired outcomes.
+            Need something specific? Schedule a call—we’ll review your workflows,
+            data, and goals together and recommend the right next step.
           </p>
         </div>
         <Accordion
           type="single"
           collapsible
-          className="mx-auto w-full max-w-3xl rounded-2xl border border-border bg-white shadow-sm"
+          className="mx-auto w-full max-w-3xl space-y-4"
         >
           {faqs.map(({ question, answer }, index) => (
-            <AccordionItem key={question} value={`item-${index + 1}`}>
-              <AccordionTrigger>{question}</AccordionTrigger>
-              <AccordionContent>{answer}</AccordionContent>
+            <AccordionItem
+              key={question}
+              value={`item-${index + 1}`}
+              className="overflow-hidden rounded-2xl border border-border/60 bg-white/95 shadow-sm transition hover:border-accent/40 hover:shadow-md last:border-b"
+            >
+              <AccordionTrigger className="px-6 py-4 text-left text-lg font-semibold text-foreground hover:text-accent">
+                {question}
+              </AccordionTrigger>
+              <AccordionContent className="px-6 pb-6 text-base leading-relaxed text-foreground/75">
+                {answer}
+              </AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
