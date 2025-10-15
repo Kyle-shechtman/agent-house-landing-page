@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/blog/ai-automation-blueprint-small-business":{},"/blog/build-ai-sales-follow-up-system":{},"/blog/ai-customer-success-copilot":{},"/blog/foundation-holds-you-back":{}},"dynamicRoutes":{"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"30dd2bd158fda4f2a852fd1afbf67f09","previewModeSigningKey":"7fbede70c7382d70a55ad1e38acd3c2dd29c68311d86a95a7231328f33d21479","previewModeEncryptionKey":"fbc4c1a011c76302d78eec634dc227f8ecb4de251893ada3ecb954a6482298f9"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "c6bfc395b5163192e2a9fad96ce38850",
+    "previewModeSigningKey": "8d947a7a4b278b73240db6143d91dd3670ff31af45cb766f72a33b35c35e9384",
+    "previewModeEncryptionKey": "199d287baff4a522b1378629f8ae62fae28d71922af560f1c8d7f0e7edd152bd"
+  }
+}
