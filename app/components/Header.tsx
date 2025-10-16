@@ -70,8 +70,27 @@ export default function Header() {
       </div>
       {isMobileNavOpen ? (
         <div className="md:hidden">
-          <div className="fixed inset-0 z-40 bg-background/95 backdrop-blur">
-            <div className="mx-auto flex h-full max-w-screen-sm flex-col justify-between px-6 py-8">
+          <div
+            className="fixed inset-0 z-40 bg-background/95 backdrop-blur"
+            onClick={() => setMobileNavOpen(false)}
+          >
+            <div
+              className="mx-auto flex h-full max-w-screen-sm flex-col gap-6 px-6 py-8"
+              onClick={(event) => event.stopPropagation()}
+            >
+              <div className="flex justify-end">
+                <button
+                  type="button"
+                  onClick={() => setMobileNavOpen(false)}
+                  className={cn(
+                    buttonVariants({ variant: "ghost", size: "icon" }),
+                    "h-10 w-10 rounded-full border border-border bg-white text-foreground shadow-sm"
+                  )}
+                  aria-label="Close navigation"
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              </div>
               <nav className="space-y-3">
                 {navLinks.map(({ href, label }) => (
                   <Link
@@ -101,9 +120,6 @@ export default function Header() {
                   </Link>
                 </Button>
               </nav>
-              <p className="text-xs text-foreground/60">
-                Your business buddy that never sleeps. We keep the busywork handled so you can stay focused on growth.
-              </p>
             </div>
           </div>
         </div>

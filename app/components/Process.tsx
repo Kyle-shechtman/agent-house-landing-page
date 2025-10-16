@@ -55,7 +55,7 @@ export default function Process() {
           {steps.map(({ step, title, description, deliverables }) => (
             <Card key={title} className="h-full bg-muted/20">
               <CardHeader className="flex flex-row items-start gap-4">
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-accent text-base font-semibold text-white">
+                <span className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-accent text-lg font-semibold text-white shadow-sm">
                   {step}
                 </span>
                 <div>
