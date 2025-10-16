@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/blog/database-is-your-brain":{},"/blog/foundation-holds-you-back":{}},"dynamicRoutes":{"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"85fef47ba34303982ca9e2767121a75a","previewModeSigningKey":"19e8cedd34a9793f21253f90b2a9a10a187b8c64bdb651200873524c4343faad","previewModeEncryptionKey":"04252047b60d12c25d4cdea631a14a57a193e82d3e442ee6ae957cca2bd0fcae"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "ce3b2dd909ba75f429edbd8bb6e69112",
+    "previewModeSigningKey": "c4785848482b042e38f75272511aa90b6b6447e4ea0405ea862cfd614c84200b",
+    "previewModeEncryptionKey": "fe958778bc6960be709780ec80194b63e303da5b325f7f02da48487b0702efc7"
+  }
+}

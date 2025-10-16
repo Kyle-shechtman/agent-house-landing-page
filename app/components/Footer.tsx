@@ -66,6 +66,12 @@ export default function Footer() {
             <Link href="/blog" className="hover:text-accent">
               Blog
             </Link>
+            <Link href="/privacy-policy" className="hover:text-accent">
+              Privacy Policy
+            </Link>
+            <Link href="/terms-of-service" className="hover:text-accent">
+              Terms of Service
+            </Link>
           </div>
         </div>
       </div>
