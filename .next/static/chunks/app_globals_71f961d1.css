@@ -414,10 +414,6 @@ a:hover {
   z-index: 50;
 }
 
-.z-\[60\] {
-  z-index: 60;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -529,6 +525,10 @@ a:hover {
 
 .min-h-\[120px\] {
   min-height: 120px;
+}
+
+.min-h-full {
+  min-height: 100%;
 }
 
 .min-h-screen {
@@ -740,10 +740,6 @@ a:hover {
   overflow: hidden;
 }
 
-.overflow-y-auto {
-  overflow-y: auto;
-}
-
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -882,6 +878,11 @@ a:hover {
 
 .bg-white\/95 {
   background-color: rgba(255, 255, 255, .95);
+}
+
+.bg-neutral-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(250, 250, 250, var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-br {

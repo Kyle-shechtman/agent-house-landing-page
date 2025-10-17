@@ -71,11 +71,11 @@ export default function Header() {
       {isMobileNavOpen ? (
         <div className="md:hidden">
           <div
-            className="fixed inset-0 z-40 bg-background/95 backdrop-blur"
+            className="fixed inset-0 z-40 bg-white"
             onClick={() => setMobileNavOpen(false)}
           >
             <div
-              className="mx-auto flex h-full max-w-screen-sm flex-col gap-6 px-6 py-8"
+              className="mx-auto flex min-h-full w-full max-w-screen-sm flex-col gap-6 bg-white px-6 py-8"
               onClick={(event) => event.stopPropagation()}
             >
               <div className="flex justify-end">
@@ -98,7 +98,7 @@ export default function Header() {
                     href={href}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "lg" }),
-                      "w-full justify-start rounded-2xl bg-white/80 px-5 text-base font-semibold text-foreground shadow-sm transition hover:bg-white"
+                      "w-full justify-start rounded-2xl bg-neutral-50 px-5 text-base font-semibold text-foreground shadow-sm transition hover:bg-white"
                     )}
                     onClick={() => setMobileNavOpen(false)}
                   >
