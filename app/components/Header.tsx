@@ -49,7 +49,7 @@ export default function Header() {
         <div className="flex items-center gap-2">
           <Button asChild size="sm" className="hidden md:inline-flex">
             <Link
-              href="https://cal.com/kyle-shechtman-7ydquo/15min?overlayCalendar=true"
+              href="https://cal.com/data-buddies-solutions/30min"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -112,7 +112,7 @@ export default function Header() {
                   onClick={() => setMobileNavOpen(false)}
                 >
                   <Link
-                    href="https://cal.com/kyle-shechtman-7ydquo/15min?overlayCalendar=true"
+                    href="https://cal.com/data-buddies-solutions/30min"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

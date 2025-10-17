@@ -141,7 +141,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             <p className="text-base text-foreground/80">{post.takeaway}</p>
             <Button asChild size="lg" className="w-fit bg-accent text-white hover:bg-accent-hover">
               <Link
-                href="https://cal.com/kyle-shechtman-7ydquo/15min?overlayCalendar=true"
+                href="https://cal.com/data-buddies-solutions/30min"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -60,4 +60,4 @@ The hero image (`hero-isometric-removebg-preview.png`) needs to be added to the 
 ## Contact
 
 - **Email**: databuddiessolutions@gmail.com
-- **Book a Demo**: [Cal.com scheduling link](https://cal.com/kyle-shechtman-7ydquo/15min?overlayCalendar=true)
+- **Book a Demo**: [Cal.com scheduling link](https://cal.com/data-buddies-solutions/30min)

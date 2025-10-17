@@ -20,7 +20,7 @@ export default function Hero() {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
             <Button asChild size="lg">
               <Link
-                href="https://cal.com/kyle-shechtman-7ydquo/15min?overlayCalendar=true"
+                href="https://cal.com/data-buddies-solutions/30min"
                 target="_blank"
                 rel="noopener noreferrer"
               >
