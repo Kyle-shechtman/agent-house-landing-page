@@ -5,31 +5,31 @@ import { Separator } from "./ui/separator";
 const steps = [
   {
     step: "1",
-    title: "Automation blueprint",
+    title: "Understand & plan",
     description:
-      "We audit your workflows, data sources, and tech stack, then deliver a prioritized roadmap with ROI projections.",
-    deliverables: ["Stakeholder interviews", "Process mapping", "Data readiness report"],
+      "We sit with your team, map what slows you down, and sketch a simple plan that shows where automation can help first.",
+    deliverables: ["Team conversations", "Workflow sketch", "Priority shortlist"],
   },
   {
     step: "2",
-    title: "Design & build",
+    title: "Build & test",
     description:
-      "We prototype AI agents, integrate with your systems, and run sandbox tests before anything hits production.",
-    deliverables: ["Integration plan", "Agent playbooks", "Human-in-the-loop QA"],
+      "We connect the tools, build the automations, and test them in a safe space so everything feels right before launch.",
+    deliverables: ["Connection checklist", "Step-by-step guides", "Dry-run feedback"],
   },
   {
     step: "3",
-    title: "Launch & train",
+    title: "Launch & coach",
     description:
-      "We deploy your automations, train your team, and capture feedback loops to keep performance trending upward.",
-    deliverables: ["Enablement library", "Performance dashboards", "Support playbook"],
+      "We roll out the new workflows, sit alongside your team, and answer every question until it feels natural.",
+    deliverables: ["Quick-start videos", "Live training sessions", "Friendly support channel"],
   },
   {
     step: "4",
-    title: "Optimize & expand",
+    title: "Tune & grow",
     description:
-      "Ongoing monitoring, A/B testing, and experimentation ensure your automations get smarter as your business grows.",
-    deliverables: ["Monthly optimization sprints", "New workflow experiments", "Metrics reporting"],
+      "We check in regularly, tweak what needs love, and add new automations once the first wins are humming.",
+    deliverables: ["Monthly check-ins", "New idea backlog", "Progress snapshots"],
   },
 ];
 
@@ -43,11 +43,10 @@ export default function Process() {
               Delivery framework
             </Badge>
             <h2 className="text-3xl font-semibold md:text-4xl">
-              Full-service implementation from blueprint to continuous optimization.
+              A friendly, end-to-end path from idea to daily use.
             </h2>
             <p className="text-base text-foreground/70 md:text-lg">
-              We combine automation engineering, AI model tuning, and change
-              management so your team sees value in weeks—not quarters.
+              No jargon, no overwhelm—just a clear rhythm that gets automations working fast and keeps them priceless.
             </p>
           </div>
         </div>

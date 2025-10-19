@@ -543,42 +543,42 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$s
 const steps = [
     {
         step: "1",
-        title: "Automation blueprint",
-        description: "We audit your workflows, data sources, and tech stack, then deliver a prioritized roadmap with ROI projections.",
+        title: "Understand & plan",
+        description: "We sit with your team, map what slows you down, and sketch a simple plan that shows where automation can help first.",
         deliverables: [
-            "Stakeholder interviews",
-            "Process mapping",
-            "Data readiness report"
+            "Team conversations",
+            "Workflow sketch",
+            "Priority shortlist"
         ]
     },
     {
         step: "2",
-        title: "Design & build",
-        description: "We prototype AI agents, integrate with your systems, and run sandbox tests before anything hits production.",
+        title: "Build & test",
+        description: "We connect the tools, build the automations, and test them in a safe space so everything feels right before launch.",
         deliverables: [
-            "Integration plan",
-            "Agent playbooks",
-            "Human-in-the-loop QA"
+            "Connection checklist",
+            "Step-by-step guides",
+            "Dry-run feedback"
         ]
     },
     {
         step: "3",
-        title: "Launch & train",
-        description: "We deploy your automations, train your team, and capture feedback loops to keep performance trending upward.",
+        title: "Launch & coach",
+        description: "We roll out the new workflows, sit alongside your team, and answer every question until it feels natural.",
         deliverables: [
-            "Enablement library",
-            "Performance dashboards",
-            "Support playbook"
+            "Quick-start videos",
+            "Live training sessions",
+            "Friendly support channel"
         ]
     },
     {
         step: "4",
-        title: "Optimize & expand",
-        description: "Ongoing monitoring, A/B testing, and experimentation ensure your automations get smarter as your business grows.",
+        title: "Tune & grow",
+        description: "We check in regularly, tweak what needs love, and add new automations once the first wins are humming.",
         deliverables: [
-            "Monthly optimization sprints",
-            "New workflow experiments",
-            "Metrics reporting"
+            "Monthly check-ins",
+            "New idea backlog",
+            "Progress snapshots"
         ]
     }
 ];
@@ -605,7 +605,7 @@ function Process() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl font-semibold md:text-4xl",
-                                children: "Full-service implementation from blueprint to continuous optimization."
+                                children: "A friendly, end-to-end path from idea to daily use."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Process.tsx",
                                 lineNumber: 45,
@@ -613,7 +613,7 @@ function Process() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-base text-foreground/70 md:text-lg",
-                                children: "We combine automation engineering, AI model tuning, and change management so your team sees value in weeks—not quarters."
+                                children: "No jargon, no overwhelm—just a clear rhythm that gets automations working fast and keeps them priceless."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Process.tsx",
                                 lineNumber: 48,
@@ -643,7 +643,7 @@ function Process() {
                                             children: step
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Process.tsx",
-                                            lineNumber: 58,
+                                            lineNumber: 57,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -653,7 +653,7 @@ function Process() {
                                                     children: title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Process.tsx",
-                                                    lineNumber: 62,
+                                                    lineNumber: 61,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -661,19 +661,19 @@ function Process() {
                                                     children: description
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Process.tsx",
-                                                    lineNumber: 63,
+                                                    lineNumber: 62,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/Process.tsx",
-                                            lineNumber: 61,
+                                            lineNumber: 60,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/Process.tsx",
-                                    lineNumber: 57,
+                                    lineNumber: 56,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -683,7 +683,7 @@ function Process() {
                                             className: "bg-border/70"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Process.tsx",
-                                            lineNumber: 67,
+                                            lineNumber: 66,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -691,7 +691,7 @@ function Process() {
                                             children: "Deliverables"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Process.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 67,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -703,36 +703,36 @@ function Process() {
                                                             className: "inline-flex h-2 w-2 rounded-full bg-accent"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/Process.tsx",
-                                                            lineNumber: 74,
+                                                            lineNumber: 73,
                                                             columnNumber: 23
                                                         }, this),
                                                         item
                                                     ]
                                                 }, item, true, {
                                                     fileName: "[project]/app/components/Process.tsx",
-                                                    lineNumber: 73,
+                                                    lineNumber: 72,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Process.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 70,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/Process.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 65,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, title, true, {
                             fileName: "[project]/app/components/Process.tsx",
-                            lineNumber: 56,
+                            lineNumber: 55,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/components/Process.tsx",
-                    lineNumber: 54,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this)
             ]

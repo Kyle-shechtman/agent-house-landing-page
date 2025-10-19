@@ -29,7 +29,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-foreground">Data Buddies Solutions</h3>
           <p className="text-sm leading-relaxed text-foreground/70">
             Your always-on business buddy that clears repetitive work and keeps operations humming.
-            We blend automation engineering, AI expertise, and change management so you can focus on growth.
+            We blend automation engineering and AI expertise so you can focus on growth.
           </p>
         </div>
         <div className="flex flex-col gap-4 text-sm text-foreground/70">
