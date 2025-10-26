@@ -15,6 +15,45 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "from-sequential-to-parallel",
+    title: "From Sequential to Parallel: Why Your Business Needs to Think Like a GPU",
+    description:
+      "The shift from linear thinking to parallel execution is reshaping business. Companies that adapt will operate like beehives, not assembly lines.",
+    readingTime: "5 min read",
+    date: "2025-10-26",
+    tags: ["AI strategy", "Business transformation"],
+    sections: [
+      {
+        heading: "We're wired to think in steps",
+        paragraphs: [
+          "Almost every business owner thinks sequentially, and I don't blame them. It's human nature. Our ancestors survived by thinking in steps: we must eat, therefore we must hunt, then we cook for the tribe. Over thousands of years, this instinct became the foundation of how we work, plan, and build.",
+          "Modern business psychology still runs on that same wiring. Checklists, meetings, quarterly goals. Everything is built on sequence and control. The CPU embodied that logic: one task after another, efficiently executed. That mindset powered the modern world, from the moon landing to billion-dollar industries. But it is also what holds most companies back today.",
+        ],
+      },
+      {
+        heading: "The GPU changed everything",
+        paragraphs: [
+          "The GPU changed everything. Instead of one brain working fast, it became thousands thinking together. That parallel design gave rise to AI, intelligence that learns, adapts, and acts all at once. Look at search. For decades, Google worked in sequence: crawl, index, retrieve. Now ChatGPT or Perplexity can sweep across the internet in a single motion, synthesizing meaning rather than listing links. This is not faster search; it's a new kind of cognition.",
+          "Yet most companies still behave like CPUs. Bureaucracy kills ideas one approval at a time. Layers of management throttle creativity. Work moves in lines, not networks. The businesses that adapt will operate like beehives: thousands of small, synchronized actions moving toward one purpose.",
+        ],
+      },
+      {
+        heading: "What parallel business looks like",
+        paragraphs: [
+          "Take a small dental office. In the linear world, a patient calls to book, a receptionist confirms, reminders go out later. If ten people call, nine wait. In the parallel world, an AI handles every call at once, books appointments, processes payments, and updates records in real time. The team spends less time managing and more time caring. The business hums like a hive, every part aware of the whole.",
+        ],
+      },
+      {
+        heading: "The shift is already here",
+        paragraphs: [
+          "The shift from linear to exponential is already here. The only question left is whether your business, and your mind, are ready to move from sequence to simultaneity.",
+        ],
+      },
+    ],
+    takeaway:
+      "Modern businesses must evolve from sequential thinking to parallel execution—operating like beehives where thousands of synchronized actions move toward one purpose.",
+  },
+  {
     slug: "database-is-your-brain",
     title: "Upgrade Your Database: Why It's About to Become Your Brain",
     description:

@@ -9,12 +9,14 @@ const team = [
     role: "CEO",
     initials: "KS",
     bio: "Hi, I'm Kyle, the CEO of Data Buddies. I love talking with business owners, learning what slows them down, and building better ways to get things done. I track new technology closely and enjoy turning big ideas into something real alongside the team. For me, work should feel less complicated and more meaningful, whether that means sharper systems, smarter tools, or a fresh perspective. When I'm away from the laptop, you'll find me outside hiking, playing sports, exploring new places, and staying curious about what's next.",
+    twitter: "_kyleshechtman",
   },
   {
     name: "Chase Fagen",
     role: "CTO",
     initials: "CF",
     bio: "I'm a lifelong learner and adventurer, fascinated by how ideas move from circuits and code to things that actually make a difference in people's lives. I love all sports and competition, from snowboarding to soccer to padel, I have tried it all. I see movement in sport the same way I see it in business: it's about flow, timing, and adaptability. That same competitive spirit drives me to find better ways for small businesses to win, because when their tools move with them instead of against them, that's a victory we share.",
+    twitter: "chasef07",
   },
 ];
 
@@ -71,7 +73,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="grid gap-10 md:grid-cols-2">
-            {team.map(({ name, role, initials, bio }) => (
+            {team.map(({ name, role, initials, bio, twitter }) => (
               <Card key={name} className="border border-border/60 bg-neutral-50/90 shadow-sm">
                 <CardContent className="flex flex-col gap-6 py-8 sm:flex-row sm:items-center sm:gap-8">
                   <div className="flex items-center justify-center sm:justify-start">
@@ -83,6 +85,16 @@ export default function AboutPage() {
                     <div>
                       <h3 className="text-xl font-semibold text-foreground">{name}</h3>
                       <p className="text-sm font-medium uppercase tracking-wide text-foreground/60">{role}</p>
+                      {twitter && (
+                        <a
+                          href={`https://x.com/${twitter}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-1 inline-block text-sm text-blue-600 hover:underline"
+                        >
+                          @{twitter}
+                        </a>
+                      )}
                     </div>
                     <p className="text-base leading-relaxed text-foreground/75">{bio}</p>
                   </div>
