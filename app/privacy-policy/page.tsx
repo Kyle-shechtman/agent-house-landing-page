@@ -1,3 +1,16 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "Learn how Data Buddies Solutions collects, uses, and protects your personal information. Our commitment to data privacy and security for our AI automation services.",
+  openGraph: {
+    title: "Privacy Policy | Data Buddies Solutions",
+    description:
+      "Learn how Data Buddies Solutions handles your personal information and protects your privacy.",
+  },
+};
+
 export default function PrivacyPolicyPage() {
   return (
     <section className="mx-auto max-w-3xl space-y-6 px-4 py-16 sm:px-6 lg:px-8">

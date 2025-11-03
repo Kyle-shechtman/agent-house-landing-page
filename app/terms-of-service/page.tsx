@@ -1,3 +1,16 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service",
+  description:
+    "Read the Terms of Service for Data Buddies Solutions. Understand the terms and conditions for using our AI automation and workflow automation services.",
+  openGraph: {
+    title: "Terms of Service | Data Buddies Solutions",
+    description:
+      "Terms and conditions for using Data Buddies Solutions AI automation services.",
+  },
+};
+
 export default function TermsOfServicePage() {
   return (
     <section className="mx-auto max-w-3xl space-y-6 px-4 py-16 sm:px-6 lg:px-8">

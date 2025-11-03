@@ -1,32 +1,48 @@
-# Data Buddies Solutions - AI Agent Automation for Small Businesses
+# Data Buddies Solutions
 
-## About
-Data Buddies Solutions provides AI automation services for small businesses. We specialize in building custom AI agents that handle workflows, provide data insights, and automate repetitive tasks.
+> AI automation consultancy for small businesses
+
+## Quick Overview
+Data Buddies Solutions designs, builds, and maintains AI automations for small businesses. We launch AI agents for lead follow-up, customer success, analytics, and back-office workflows within weeks.
 
 ## Services
-- AI Agent Development
-- Business Process Automation
-- Data Analysis and Insights
-- Appointment Scheduling Automation
-- Administrative Task Automation
-- Inventory Management
+- AI Automation Blueprint (2-week engagement)
+- AI Agent Development (lead follow-up, customer success, analytics)
+- Workflow Automation (CRM, email, scheduling, data entry)
+- Data Infrastructure Modernization (database upgrades, API integration)
+- Ongoing Support & Optimization
 
-## Target Audience
-Small to medium-sized businesses looking to leverage AI automation without enterprise-level complexity or cost.
+## Team
+- Kyle Shechtman (CEO) - @_kyleshechtman
+- Chase Fagen (CTO) - @chasef07
+Ex-big-tech specialists making AI automation accessible to small business.
+
+## Process
+1. Understand & plan (2 weeks)
+2. Build & test (4-8 weeks)
+3. Launch & coach
+4. Tune & grow
+
+## Key Differentiators
+- Small business focus (not enterprise)
+- Fast implementation (2-week blueprints, 4-8 week deployment)
+- End-to-end support (strategy to optimization)
+- Founded by experienced AI specialists from big tech
+- ROI-driven approach (revenue, time saved, scale enabled)
+
+## Philosophy
+- Ship, learn, iterate
+- Build for business impact
+- Keep it effortless
 
 ## Contact
-Email: databuddiessolutions@gmail.com
-Booking: https://cal.com/data-buddies-solutions/30min
+- Email: databuddiessolutions@gmail.com
+- Book strategy call: https://cal.com/data-buddies-solutions/30min
+- Website: https://databuddiessolutions.com
+- LinkedIn: https://www.linkedin.com/company/data-buddies-solutions
 
-## Company Background
-Founded by AI automation specialists from corporate tech who focus on making cutting-edge automation accessible to small businesses.
+## Content
+See /llm-full.txt for comprehensive company information, use cases, and technical details.
 
-## Key Value Propositions
-1. AI agents that work 24/7
-2. Focus on practical business workflows
-3. Accessible technology for small businesses
-4. Data-driven insights to boost revenue
-5. Reduce time spent on repetitive tasks
-
-## Website
-https://databuddiessolutions.com
+---
+Last Updated: January 2025

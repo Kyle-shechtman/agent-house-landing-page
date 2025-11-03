@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "05c58844b9bde825ff75f544c4d3ad0a",
-    "previewModeSigningKey": "551b7e0799ce0a2613d1167b2afd13fb96cae5f09d82b2786a19c71739f23527",
-    "previewModeEncryptionKey": "df601789af3b7b6a08021c75713d1f00b5deb36da72067788920e5e4aebf31eb"
-  }
-}
+{"version":4,"routes":{"/blog/from-sequential-to-parallel":{},"/blog/database-is-your-brain":{},"/blog/foundation-holds-you-back":{}},"dynamicRoutes":{"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"71d36eaed5cbd82557f57879e550726f","previewModeSigningKey":"adef6b56e3a552815d3e4df1c817b724f4cd6f7e6011e453659c5343b94f5a64","previewModeEncryptionKey":"0b0976a2af3703410a79e52c4c277ecd3272e8b2c345013ff01591e2e8d7052d"}}

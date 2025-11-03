@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { Badge } from "@/app/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/app/components/ui/card";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const team = [
   {
@@ -50,6 +51,12 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <section className="section bg-muted/40">
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "About Us", url: "/about" },
+        ]}
+      />
       <div className="mx-auto max-w-screen-xl space-y-16 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto flex max-w-3xl flex-col items-center space-y-6 text-center">
           <Badge variant="outline" className="w-fit uppercase">

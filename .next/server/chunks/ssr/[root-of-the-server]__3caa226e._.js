@@ -154,13 +154,15 @@ const team = [
         name: "Kyle Shechtman",
         role: "CEO",
         initials: "KS",
-        bio: "Hi, I'm Kyle, the CEO of Data Buddies. I love talking with business owners, learning what slows them down, and building better ways to get things done. I track new technology closely and enjoy turning big ideas into something real alongside the team. For me, work should feel less complicated and more meaningful, whether that means sharper systems, smarter tools, or a fresh perspective. When I'm away from the laptop, you'll find me outside hiking, playing sports, exploring new places, and staying curious about what's next."
+        bio: "Hi, I'm Kyle, the CEO of Data Buddies. I love talking with business owners, learning what slows them down, and building better ways to get things done. I track new technology closely and enjoy turning big ideas into something real alongside the team. For me, work should feel less complicated and more meaningful, whether that means sharper systems, smarter tools, or a fresh perspective. When I'm away from the laptop, you'll find me outside hiking, playing sports, exploring new places, and staying curious about what's next.",
+        twitter: "_kyleshechtman"
     },
     {
         name: "Chase Fagen",
         role: "CTO",
         initials: "CF",
-        bio: "I'm a lifelong learner and adventurer, fascinated by how ideas move from circuits and code to things that actually make a difference in people's lives. I love all sports and competition, from snowboarding to soccer to padel, I have tried it all. I see movement in sport the same way I see it in business: it's about flow, timing, and adaptability. That same competitive spirit drives me to find better ways for small businesses to win, because when their tools move with them instead of against them, that's a victory we share."
+        bio: "I'm a lifelong learner and adventurer, fascinated by how ideas move from circuits and code to things that actually make a difference in people's lives. I love all sports and competition, from snowboarding to soccer to padel, I have tried it all. I see movement in sport the same way I see it in business: it's about flow, timing, and adaptability. That same competitive spirit drives me to find better ways for small businesses to win, because when their tools move with them instead of against them, that's a victory we share.",
+        twitter: "chasef07"
     }
 ];
 const philosophy = [
@@ -199,7 +201,7 @@ function AboutPage() {
                             children: "About Us"
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.tsx",
-                            lineNumber: 53,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -207,7 +209,7 @@ function AboutPage() {
                             children: "We left big tech so small businesses can own the AI era."
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.tsx",
-                            lineNumber: 56,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -215,13 +217,13 @@ function AboutPage() {
                             children: "Data Buddies helps lean teams boost revenue, clear bottlenecks, and win back time with AI that feels simple, useful, and human."
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.tsx",
-                            lineNumber: 59,
+                            lineNumber: 61,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/about/page.tsx",
-                    lineNumber: 52,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -235,7 +237,7 @@ function AboutPage() {
                                     children: "Meet the team"
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -243,18 +245,18 @@ function AboutPage() {
                                     children: "We started Data Buddies after years inside fast-moving teams. We know the grind of manual work, and we build automations that feel supportive, not stressful."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 70,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/about/page.tsx",
-                            lineNumber: 66,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid gap-10 md:grid-cols-2",
-                            children: team.map(({ name, role, initials, bio })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
+                            children: team.map(({ name, role, initials, bio, twitter })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
                                     className: "border border-border/60 bg-neutral-50/90 shadow-sm",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
                                         className: "flex flex-col gap-6 py-8 sm:flex-row sm:items-center sm:gap-8",
@@ -266,12 +268,12 @@ function AboutPage() {
                                                     children: initials
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/about/page.tsx",
-                                                    lineNumber: 78,
+                                                    lineNumber: 80,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.tsx",
-                                                lineNumber: 77,
+                                                lineNumber: 79,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -284,7 +286,7 @@ function AboutPage() {
                                                                 children: name
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/about/page.tsx",
-                                                                lineNumber: 84,
+                                                                lineNumber: 86,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -292,13 +294,27 @@ function AboutPage() {
                                                                 children: role
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/about/page.tsx",
-                                                                lineNumber: 85,
+                                                                lineNumber: 87,
                                                                 columnNumber: 23
+                                                            }, this),
+                                                            twitter && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: `https://x.com/${twitter}`,
+                                                                target: "_blank",
+                                                                rel: "noopener noreferrer",
+                                                                className: "mt-1 inline-block text-sm text-blue-600 hover:underline",
+                                                                children: [
+                                                                    "@",
+                                                                    twitter
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/app/about/page.tsx",
+                                                                lineNumber: 89,
+                                                                columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/about/page.tsx",
-                                                        lineNumber: 83,
+                                                        lineNumber: 85,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -306,35 +322,35 @@ function AboutPage() {
                                                         children: bio
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/about/page.tsx",
-                                                        lineNumber: 87,
+                                                        lineNumber: 99,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/about/page.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 84,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/about/page.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 78,
                                         columnNumber: 17
                                     }, this)
                                 }, name, false, {
                                     fileName: "[project]/app/about/page.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 77,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.tsx",
-                            lineNumber: 73,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/about/page.tsx",
-                    lineNumber: 65,
+                    lineNumber: 67,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -348,7 +364,7 @@ function AboutPage() {
                                     children: "Our philosophy"
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.tsx",
-                                    lineNumber: 97,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -356,13 +372,13 @@ function AboutPage() {
                                     children: "These principles keep every automation grounded in business impact and human adoption even as tools change and your priorities evolve."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/about/page.tsx",
-                            lineNumber: 96,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -376,12 +392,12 @@ function AboutPage() {
                                                 children: title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.tsx",
-                                                lineNumber: 107,
+                                                lineNumber: 119,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.tsx",
-                                            lineNumber: 106,
+                                            lineNumber: 118,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -390,40 +406,40 @@ function AboutPage() {
                                                 children: description
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 122,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/about/page.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 121,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, title, true, {
                                     fileName: "[project]/app/about/page.tsx",
-                                    lineNumber: 105,
+                                    lineNumber: 117,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.tsx",
-                            lineNumber: 103,
+                            lineNumber: 115,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/about/page.tsx",
-                    lineNumber: 95,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/about/page.tsx",
-            lineNumber: 51,
+            lineNumber: 53,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/about/page.tsx",
-        lineNumber: 50,
+        lineNumber: 52,
         columnNumber: 5
     }, this);
 }

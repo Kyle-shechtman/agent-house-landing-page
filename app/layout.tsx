@@ -49,6 +49,8 @@ export const metadata: Metadata = {
   description:
     "Data Buddies Solutions designs, builds, and maintains AI automations for small businesses. Launch AI agents for lead follow-up, customer success, analytics, and back-office workflows within weeks.",
   keywords: [
+    "Data Buddies",
+    "Data Buddies Solutions",
     "AI automation for small business",
     "business process automation services",
     "AI agent development",
@@ -56,6 +58,8 @@ export const metadata: Metadata = {
     "AI customer success copilot",
     "affordable AI automation",
     "hire AI automation consultant",
+    "small business AI consultant",
+    "AI automation consultancy",
   ],
   icons: {
     icon: "/favicon.png",
@@ -80,10 +84,15 @@ export const metadata: Metadata = {
     siteName: "Data Buddies Solutions",
     images: [
       {
+        // TODO: Create a dedicated 1200x630 OpenGraph image for better social media sharing
+        // Current image is 668x374, consider creating a proper OG image with:
+        // - Data Buddies Solutions branding
+        // - Clear value proposition text
+        // - Professional design matching brand colors (#cc6633)
         url: "/hero-isometric-removebg-preview.png",
-        width: 1200,
-        height: 630,
-        alt: "AI automation dashboard for small businesses",
+        width: 668,
+        height: 374,
+        alt: "Data Buddies Solutions - AI automation for small businesses",
       },
     ],
   },

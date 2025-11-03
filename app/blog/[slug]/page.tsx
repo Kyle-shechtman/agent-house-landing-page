@@ -7,6 +7,7 @@ import { Badge } from "@/app/components/ui/badge";
 import { Button } from "@/app/components/ui/button";
 import { Card, CardContent } from "@/app/components/ui/card";
 import { Separator } from "@/app/components/ui/separator";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 import { getPostBySlug, posts } from "../posts";
 
@@ -80,6 +81,13 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   return (
     <article className="section bg-background">
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Blog", url: "/blog" },
+          { name: post.title, url: `/blog/${post.slug}` },
+        ]}
+      />
       <div className="mx-auto flex max-w-3xl flex-col gap-12 px-4 sm:px-6 lg:px-0">
         <div className="space-y-6">
           <Button asChild variant="ghost" size="sm" className="-ml-2 w-fit">
@@ -118,10 +126,12 @@ export default async function BlogPostPage({ params }: PageProps) {
           {post.sections.map((section) => (
             <section key={section.heading} className="space-y-4">
               <h2 className="text-2xl font-semibold text-foreground">{section.heading}</h2>
-              {section.paragraphs.map((paragraph) => (
-                <p key={paragraph} className="text-base leading-relaxed text-foreground/80">
-                  {paragraph}
-                </p>
+              {section.paragraphs.map((paragraph, idx) => (
+                <p
+                  key={`${section.heading}-${idx}`}
+                  className="text-base leading-relaxed text-foreground/80"
+                  dangerouslySetInnerHTML={{ __html: paragraph }}
+                />
               ))}
               {section.bullets && (
                 <ul className="space-y-2 border-l-2 border-accent/50 pl-4 text-sm text-foreground/75">

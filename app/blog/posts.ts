@@ -40,7 +40,7 @@ export const posts: BlogPost[] = [
       {
         heading: "What parallel business looks like",
         paragraphs: [
-          "Take a small dental office. In the linear world, a patient calls to book, a receptionist confirms, reminders go out later. If ten people call, nine wait. In the parallel world, an AI handles every call at once, books appointments, processes payments, and updates records in real time. The team spends less time managing and more time caring. The business hums like a hive, every part aware of the whole.",
+          "Take a small dental office. In the linear world, a patient calls to book, a receptionist confirms, reminders go out later. If ten people call, nine wait. In the parallel world, an AI handles every call at once, books appointments, processes payments, and updates records in real time. The team spends less time managing and more time caring. The business hums like a hive, every part aware of the whole. Learn more about building AI automations at <a href='/' class='text-accent hover:underline'>Data Buddies Solutions</a>.",
         ],
       },
       {
@@ -98,7 +98,7 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "When your database stores intelligence, AI agents can make strategic decisions that align with your business philosophy. They don't just execute tasks—they understand context, anticipate opportunities, and act like they've worked at your company for years.",
           "An AI with access to your intelligence layer doesn't just process transactions. It understands why you make the decisions you make, what your customers truly value, and how to scale your unique approach. It can identify patterns you've missed, suggest strategies aligned with your growth plan, and operate with the wisdom of your best employees.",
-          "This is augmentation, not automation. Amplifying human wisdom at scale.",
+          "This is augmentation, not automation. Amplifying human wisdom at scale. Ready to modernize your infrastructure? Check our <a href='/faq' class='text-accent hover:underline'>FAQ</a> to learn how we approach data modernization.",
         ],
       },
       {
@@ -140,7 +140,7 @@ export const posts: BlogPost[] = [
         heading: "Lay the groundwork before you sprint",
         paragraphs: [
           "Before you can run with AI, you must crawl. Build the right infrastructure: clean data, shared systems, documented processes. Then AI suddenly becomes repeatable and scalable.",
-          "Once you shore up the foundation, you can deploy agents confidently and finally see the payoff you imagined.",
+          "Once you shore up the foundation, you can deploy agents confidently and finally see the payoff you imagined. Want to learn more about our approach? Visit our <a href='/about' class='text-accent hover:underline'>About page</a> to meet the team.",
         ],
       },
     ],
