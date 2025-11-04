@@ -26,7 +26,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-screen-xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center" aria-label="Data Buddies Solutions home">
           <Image
-            src="/favicon.png"
+            src="/logono.png"
             alt="Data Buddies Solutions logo"
             width={112}
             height={112}

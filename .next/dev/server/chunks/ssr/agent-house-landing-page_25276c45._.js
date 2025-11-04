@@ -326,7 +326,7 @@ const organizationSchema = {
     "@type": "ProfessionalService",
     name: __TURBOPACK__imported__module__$5b$project$5d2f$agent$2d$house$2d$landing$2d$page$2f$lib$2f$config$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SITE_CONFIG"].name,
     url: __TURBOPACK__imported__module__$5b$project$5d2f$agent$2d$house$2d$landing$2d$page$2f$lib$2f$config$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SITE_CONFIG"].baseUrl,
-    logo: `${__TURBOPACK__imported__module__$5b$project$5d2f$agent$2d$house$2d$landing$2d$page$2f$lib$2f$config$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SITE_CONFIG"].baseUrl}/favicon.png`,
+    logo: `${__TURBOPACK__imported__module__$5b$project$5d2f$agent$2d$house$2d$landing$2d$page$2f$lib$2f$config$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SITE_CONFIG"].baseUrl}/logono.png`,
     description: "Data Buddies Solutions builds AI automation for small and midsize businesses, delivering workflow orchestration, intelligent agents, and analytics.",
     email: __TURBOPACK__imported__module__$5b$project$5d2f$agent$2d$house$2d$landing$2d$page$2f$lib$2f$config$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SITE_CONFIG"].email,
     sameAs: [
@@ -376,7 +376,7 @@ const metadata = {
         "AI automation consultancy"
     ],
     icons: {
-        icon: "/favicon.png"
+        icon: "/favicon-old.png"
     },
     authors: [
         {

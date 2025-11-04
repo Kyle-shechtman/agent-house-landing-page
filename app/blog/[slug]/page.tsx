@@ -72,7 +72,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       name: SITE_CONFIG.name,
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_CONFIG.baseUrl}/favicon.png`,
+        url: `${SITE_CONFIG.baseUrl}/logono.png`,
       },
     },
     mainEntityOfPage: {

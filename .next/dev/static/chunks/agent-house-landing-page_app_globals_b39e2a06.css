@@ -114,7 +114,6 @@
     --color-foreground: #1a1a1a;
     --color-border: #00000014;
     --color-muted: #f1ede7;
-    --color-muted-foreground: #585858;
     --color-accent: #c63;
     --color-accent-hover: #b35529;
     --shadow-card: 0 12px 30px #1a1a1a14;
@@ -525,10 +524,6 @@
     margin-left: calc(var(--spacing) * 1);
   }
 
-  .ml-2 {
-    margin-left: calc(var(--spacing) * 2);
-  }
-
   .block {
     display: block;
   }
@@ -603,10 +598,6 @@
 
   .h-px {
     height: 1px;
-  }
-
-  .min-h-\[120px\] {
-    min-height: 120px;
   }
 
   .min-h-full {
@@ -1069,16 +1060,6 @@
     }
   }
 
-  .bg-white\/90 {
-    background-color: #ffffffe6;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-white\/90 {
-      background-color: color-mix(in oklab, var(--color-white) 90%, transparent);
-    }
-  }
-
   .bg-white\/95 {
     background-color: #fffffff2;
   }
@@ -1364,10 +1345,6 @@
     }
   }
 
-  .text-muted-foreground {
-    color: var(--color-muted-foreground);
-  }
-
   .text-white {
     color: var(--color-white);
   }
@@ -1451,16 +1428,6 @@
   .ease-out {
     --tw-ease: var(--ease-out);
     transition-timing-function: var(--ease-out);
-  }
-
-  .placeholder\:text-foreground\/40::placeholder {
-    color: #1a1a1a66;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .placeholder\:text-foreground\/40::placeholder {
-      color: color-mix(in oklab, var(--color-foreground) 40%, transparent);
-    }
   }
 
   .last\:border-b:last-child {
@@ -1584,10 +1551,6 @@
 
   .disabled\:pointer-events-none:disabled {
     pointer-events: none;
-  }
-
-  .disabled\:cursor-not-allowed:disabled {
-    cursor: not-allowed;
   }
 
   .disabled\:opacity-50:disabled {

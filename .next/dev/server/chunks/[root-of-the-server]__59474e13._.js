@@ -59,7 +59,7 @@ function manifest() {
         theme_color: '#cc6633',
         icons: [
             {
-                src: '/favicon.png',
+                src: '/favicon-old.png',
                 sizes: 'any',
                 type: 'image/png'
             }

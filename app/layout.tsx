@@ -11,7 +11,7 @@ const organizationSchema = {
   "@type": "ProfessionalService",
   name: SITE_CONFIG.name,
   url: SITE_CONFIG.baseUrl,
-  logo: `${SITE_CONFIG.baseUrl}/favicon.png`,
+  logo: `${SITE_CONFIG.baseUrl}/logono.png`,
   description:
     "Data Buddies Solutions builds AI automation for small and midsize businesses, delivering workflow orchestration, intelligent agents, and analytics.",
   email: SITE_CONFIG.email,
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     "AI automation consultancy",
   ],
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon-old.png",
   },
   authors: [{ name: "Data Buddies Solutions" }],
   creator: "Data Buddies Solutions",
