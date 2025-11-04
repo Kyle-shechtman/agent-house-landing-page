@@ -1,3 +1,5 @@
+import { SITE_CONFIG } from "@/lib/config";
+
 type BreadcrumbItem = {
   name: string;
   url: string;
@@ -8,7 +10,7 @@ type BreadcrumbSchemaProps = {
 };
 
 export default function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
-  const baseUrl = "https://databuddiessolutions.com";
+  const baseUrl = SITE_CONFIG.baseUrl;
 
   const schema = {
     "@context": "https://schema.org",

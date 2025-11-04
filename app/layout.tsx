@@ -4,17 +4,18 @@ import Script from "next/script";
 import "./globals.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import { SITE_CONFIG } from "@/lib/config";
 
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "Data Buddies Solutions",
-  url: "https://databuddiessolutions.com",
-  logo: "https://databuddiessolutions.com/favicon.png",
+  name: SITE_CONFIG.name,
+  url: SITE_CONFIG.baseUrl,
+  logo: `${SITE_CONFIG.baseUrl}/favicon.png`,
   description:
     "Data Buddies Solutions builds AI automation for small and midsize businesses, delivering workflow orchestration, intelligent agents, and analytics.",
-  email: "databuddiessolutions@gmail.com",
-  sameAs: ["https://www.linkedin.com/company/data-buddies-solutions"],
+  email: SITE_CONFIG.email,
+  sameAs: [SITE_CONFIG.social.linkedin],
   serviceType: [
     "AI automation consulting",
     "Workflow automation",
@@ -32,7 +33,7 @@ const organizationSchema = {
     description:
       "Assessment, roadmap, and implementation plan for AI automation initiatives tailored to small business workflows.",
     priceRange: "$$",
-    url: "https://databuddiessolutions.com",
+    url: SITE_CONFIG.baseUrl,
   },
   founder: {
     "@type": "Person",
@@ -41,10 +42,10 @@ const organizationSchema = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://databuddiessolutions.com"),
+  metadataBase: new URL(SITE_CONFIG.baseUrl),
   title: {
-    default: "Data Buddies Solutions",
-    template: "%s | Data Buddies Solutions",
+    default: SITE_CONFIG.name,
+    template: `%s | ${SITE_CONFIG.name}`,
   },
   description:
     "Data Buddies Solutions designs, builds, and maintains AI automations for small businesses. Launch AI agents for lead follow-up, customer success, analytics, and back-office workflows within weeks.",
@@ -69,15 +70,15 @@ export const metadata: Metadata = {
   publisher: "Data Buddies Solutions",
   category: "Automation Services",
   alternates: {
-    canonical: "https://databuddiessolutions.com/",
+    canonical: `${SITE_CONFIG.baseUrl}/`,
     languages: {
-      "en-US": "https://databuddiessolutions.com/",
+      "en-US": `${SITE_CONFIG.baseUrl}/`,
     },
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://databuddiessolutions.com/",
+    url: `${SITE_CONFIG.baseUrl}/`,
     title: "AI Automation for Small Businesses | Data Buddies Solutions",
     description:
       "Partner with Data Buddies Solutions to deploy AI agents, automate workflows, and launch analytics copilots tailored to your business.",

@@ -6,21 +6,21 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 const challenges = [
   {
     icon: AlarmClock,
-    title: "Discover the potential of AI",
+    title: "Discover AI opportunities",
     description:
-      "We help teams understand AI capabilities and uncover the highest-impact use cases.",
+      "We identify high-impact use cases specific to your business.",
   },
   {
     icon: BarChart3,
     title: "Insights buried in databases",
     description:
-      "Gold mines of intelligence are waiting to be unlocked to boost revenue.",
+      "Your data holds revenue opportunities waiting to be discovered.",
   },
   {
     icon: ClipboardList,
-    title: "Teams stuck in repetitive admin",
+    title: "Eliminate repetitive work",
     description:
-      "Reduce mundane manual labor and work alongside experts who understand AI.",
+      "Free your team from manual tasks that slow growth.",
   },
 ];
 
@@ -36,20 +36,19 @@ export default function Problems() {
             The hidden costs of running without automation.
           </h2>
           <p className="text-base text-foreground/70 md:text-lg">
-            We audit your workflows, quantify the opportunity, and design AI
-            automations that eliminate the friction eating into your margins.
+            We audit your workflows and build AI automations that eliminate friction and boost revenue.
           </p>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-3">
           {challenges.map(({ icon: Icon, title, description }) => (
             <Card key={title} className="h-full bg-white">
-              <CardHeader className="flex flex-row items-start gap-4 pb-4">
-                <span className="mt-1 flex h-11 w-11 items-center justify-center rounded-lg bg-accent/10 text-accent">
-                  <Icon className="h-5 w-5" aria-hidden />
-                </span>
-                <CardTitle className="text-lg">{title}</CardTitle>
+              <CardHeader className="space-y-3">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10">
+                  <Icon className="h-6 w-6 text-accent" aria-hidden />
+                </div>
+                <CardTitle className="text-xl">{title}</CardTitle>
               </CardHeader>
-              <CardContent className="text-sm text-foreground/75">
+              <CardContent className="text-sm text-foreground/70">
                 {description}
               </CardContent>
             </Card>

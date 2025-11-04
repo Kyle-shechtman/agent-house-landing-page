@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
+import { SITE_CONFIG } from "@/lib/config";
+import BookCallButton from "./BookCallButton";
 
 export default function CTA() {
   return (
@@ -14,23 +15,12 @@ export default function CTA() {
             Start your AI automation roadmap with a tailored blueprint.
           </h2>
           <p className="text-base text-foreground/70 md:text-lg">
-            In our strategy session we map quick wins, review your data sources,
-            and outline the guardrails required to deploy safely. You’ll receive a
-            prioritized plan and ROI model within one week.
+            We'll map quick wins, review your data, and build a clear roadmap. You'll get a prioritized plan and ROI model within one week.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Button asChild size="lg">
-              <Link
-                href="https://cal.com/data-buddies-solutions/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Book a strategy call
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
+            <BookCallButton />
             <Button asChild variant="secondary" size="lg">
-              <Link href="mailto:databuddiessolutions@gmail.com">Email our team</Link>
+              <Link href={`mailto:${SITE_CONFIG.email}`}>Email our team</Link>
             </Button>
           </div>
           <p className="text-sm text-foreground/60">

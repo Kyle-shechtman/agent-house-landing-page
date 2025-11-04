@@ -1,0 +1,50 @@
+{
+  "pages": {
+    "/_app": [
+      "static/chunks/6ce71_next_dist_compiled_15d20d0b._.js",
+      "static/chunks/6ce71_next_dist_shared_lib_72512b69._.js",
+      "static/chunks/6ce71_next_dist_client_dda1bbbb._.js",
+      "static/chunks/6ce71_next_dist_803273c5._.js",
+      "static/chunks/6ce71_next_app_60c040f2.js",
+      "static/chunks/[next]_entry_page-loader_ts_a05fbde9._.js",
+      "static/chunks/6ce71_react-dom_95e9d881._.js",
+      "static/chunks/6ce71_c606a486._.js",
+      "static/chunks/[root-of-the-server]__0b2be2bc._.js",
+      "static/chunks/agent-house-landing-page_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-agent-house-landing-page_pages__app_920ee851._.js"
+    ],
+    "/_error": [
+      "static/chunks/6ce71_next_dist_compiled_15d20d0b._.js",
+      "static/chunks/6ce71_next_dist_shared_lib_eafa6af6._.js",
+      "static/chunks/6ce71_next_dist_client_dda1bbbb._.js",
+      "static/chunks/6ce71_next_dist_25da4d71._.js",
+      "static/chunks/6ce71_next_error_afefcb9c.js",
+      "static/chunks/[next]_entry_page-loader_ts_b3f14ff5._.js",
+      "static/chunks/6ce71_react-dom_95e9d881._.js",
+      "static/chunks/6ce71_c606a486._.js",
+      "static/chunks/[root-of-the-server]__b70b1a6c._.js",
+      "static/chunks/agent-house-landing-page_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-agent-house-landing-page_pages__error_7f2b2057._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/6ce71_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_85c08999._.js",
+    "static/chunks/6ce71_next_dist_compiled_react-dom_c527f177._.js",
+    "static/chunks/6ce71_next_dist_compiled_react-server-dom-turbopack_09303335._.js",
+    "static/chunks/6ce71_next_dist_compiled_next-devtools_index_d556ecac.js",
+    "static/chunks/6ce71_next_dist_compiled_33961d71._.js",
+    "static/chunks/6ce71_next_dist_client_fc4894c8._.js",
+    "static/chunks/6ce71_next_dist_c77cb259._.js",
+    "static/chunks/6ce71_@swc_helpers_cjs_c8c9ec44._.js",
+    "static/chunks/agent-house-landing-page_a0ff3932._.js",
+    "static/chunks/turbopack-agent-house-landing-page_04d145fc._.js"
+  ]
+}

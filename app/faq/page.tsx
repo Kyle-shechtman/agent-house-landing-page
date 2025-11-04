@@ -2,17 +2,18 @@ import type { Metadata } from "next";
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/app/components/ui/accordion";
 import { Badge } from "@/app/components/ui/badge";
+import { SITE_CONFIG } from "@/lib/config";
 
 const faqs = [
   {
-    question: "Where does AI automation create the most value for small businesses?",
+    question: "What small businesses do you work for?",
     answer:
-      "We focus on revenue, customer success, and operations—places where manual work gums up growth. We help you automate follow-up, reporting, and service workflows that directly improve retention and cash flow.",
+      "We work with any small business looking to unlock revenue through AI and automation, from medical practices to lawn care companies.",
   },
   {
     question: "How quickly can we launch an AI automation?",
     answer:
-      "Our Automation Blueprint takes 2 weeks. Implementation timelines range from 4–8 weeks depending on integrations. We prioritize quick wins that deliver measurable ROI within the first month of launch.",
+      "We move fast. Most automations launch in 4–8 weeks, and we prioritize quick wins that deliver measurable ROI within the first month.",
   },
   {
     question: "How much internal AI or data expertise do we need?",
@@ -25,24 +26,14 @@ const faqs = [
       "Both. We combine best-in-class platforms with custom orchestration and guardrails so each agent is tuned to your workflows, branding, and compliance requirements.",
   },
   {
-    question: "How do we make sure the team actually uses the automation?",
-    answer:
-      "Every launch includes enablement, training sessions, and clear escalation paths. We instrument analytics to monitor adoption and user feedback so we can iterate quickly.",
-  },
-  {
     question: "Can you integrate with our existing CRM and finance tools?",
     answer:
-      "Yes. We routinely integrate with HubSpot, Salesforce, QuickBooks, Xero, Stripe, Airtable, Google Workspace, Slack, and industry-specific platforms via APIs or RPA connectors.",
+      "Yes. We can connect to any external tool with an API, from scheduling software to finance platforms. Our agents thrive on external context.",
   },
   {
     question: "How is pricing structured?",
     answer:
-      "Pricing depends on scope and support level. Most clients start with a project-based engagement for discovery and build, then move into a monthly optimization subscription for continuous improvements.",
-  },
-  {
-    question: "How do we measure success once the automation is live?",
-    answer:
-      "We define the KPIs up front—think response time, meetings booked, invoices processed—and set up dashboards so you can see ROI within the first few weeks.",
+      "Most clients start with a project-based engagement, then move to a monthly subscription for ongoing improvements.",
   },
 ];
 
@@ -51,7 +42,7 @@ export const metadata: Metadata = {
   description:
     "Answers to the most common questions about Data Buddies Solutions, from implementation timelines to integration support.",
   alternates: {
-    canonical: "https://databuddiessolutions.com/faq",
+    canonical: `${SITE_CONFIG.baseUrl}/faq`,
   },
 };
 
@@ -80,7 +71,7 @@ export default function FAQPage() {
             Answers to the questions small business owners struggle with most.
           </h1>
           <p className="text-base text-foreground/70 md:text-lg">
-            Need something specific? Schedule a call—we’ll review your workflows,
+            Need something specific? Schedule a call and we'll review your workflows,
             data, and goals together and recommend the right next step.
           </p>
         </div>

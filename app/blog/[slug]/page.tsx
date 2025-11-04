@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowUpRight, CalendarDays, Clock } from "lucide-react";
+import { ArrowLeft, CalendarDays, Clock } from "lucide-react";
 
 import { Badge } from "@/app/components/ui/badge";
 import { Button } from "@/app/components/ui/button";
 import { Card, CardContent } from "@/app/components/ui/card";
 import { Separator } from "@/app/components/ui/separator";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import { SITE_CONFIG } from "@/lib/config";
+import BookCallButton from "@/app/components/BookCallButton";
 
 import { getPostBySlug, posts } from "../posts";
 
@@ -36,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: post.description,
     keywords: post.tags,
     alternates: {
-      canonical: `https://databuddiessolutions.com/blog/${post.slug}`,
+      canonical: `${SITE_CONFIG.baseUrl}/blog/${post.slug}`,
     },
   };
 }
@@ -63,19 +65,19 @@ export default async function BlogPostPage({ params }: PageProps) {
     datePublished: post.date,
     author: {
       "@type": "Organization",
-      name: "Data Buddies Solutions",
+      name: SITE_CONFIG.name,
     },
     publisher: {
       "@type": "Organization",
-      name: "Data Buddies Solutions",
+      name: SITE_CONFIG.name,
       logo: {
         "@type": "ImageObject",
-        url: "https://databuddiessolutions.com/favicon.png",
+        url: `${SITE_CONFIG.baseUrl}/favicon.png`,
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://databuddiessolutions.com/blog/${post.slug}`,
+      "@id": `${SITE_CONFIG.baseUrl}/blog/${post.slug}`,
     },
   };
 
@@ -149,16 +151,12 @@ export default async function BlogPostPage({ params }: PageProps) {
               Key takeaway
             </h3>
             <p className="text-base text-foreground/80">{post.takeaway}</p>
-            <Button asChild size="lg" className="w-fit bg-accent text-white hover:bg-accent-hover">
-              <Link
-                href="https://cal.com/data-buddies-solutions/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Book a strategy session
-                <ArrowUpRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
+            <BookCallButton
+              iconVariant="arrow-up-right"
+              className="w-fit bg-accent text-white hover:bg-accent-hover"
+            >
+              Book a strategy session
+            </BookCallButton>
           </CardContent>
         </Card>
         <script

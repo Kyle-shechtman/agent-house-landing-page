@@ -3,6 +3,21 @@ import type { Metadata } from "next";
 import { Badge } from "@/app/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/app/components/ui/card";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import { SITE_CONFIG } from "@/lib/config";
+
+// X (formerly Twitter) logo SVG component
+function XLogo({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      className={className}
+      fill="currentColor"
+    >
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
+}
 
 const team = [
   {
@@ -44,7 +59,7 @@ export const metadata: Metadata = {
   description:
     "Meet Data Buddies Solutions, the AI automation team behind workflow blueprints, agent orchestration, and continuous optimization for growing businesses.",
   alternates: {
-    canonical: "https://databuddiessolutions.com/about",
+    canonical: `${SITE_CONFIG.baseUrl}/about`,
   },
 };
 
@@ -58,25 +73,55 @@ export default function AboutPage() {
         ]}
       />
       <div className="mx-auto max-w-screen-xl space-y-16 px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto flex max-w-3xl flex-col items-center space-y-6 text-center">
-          <Badge variant="outline" className="w-fit uppercase">
-            About Us
-          </Badge>
-          <h1 className="text-3xl font-semibold md:text-4xl">
-            We left big tech so small businesses can own the AI era.
-          </h1>
-          <p className="text-base text-foreground/70 md:text-lg">
-            Data Buddies helps lean teams boost revenue, clear bottlenecks, and win back time with AI that feels simple,
-            useful, and human.
-          </p>
+        <div className="space-y-8">
+          <div className="space-y-3 text-center">
+            <Badge variant="outline" className="w-fit uppercase">
+              About Us
+            </Badge>
+            <h1 className="text-3xl font-semibold md:text-4xl">Fortune 500 experience meets cutting-edge AI</h1>
+            <p className="text-base text-foreground/70 md:text-lg">
+              Enterprise-grade automation built specifically for small businesses, without the enterprise complexity.
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-3">
+            <Card className="border border-border/60 bg-white/95 text-center shadow-sm">
+              <CardHeader>
+                <CardTitle className="text-lg font-semibold text-foreground">Proven at Scale</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm leading-relaxed text-foreground/70">
+                  We built systems at Fortune 500 tech companies before leaving to focus on the frontier of AI automation.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="border border-border/60 bg-white/95 text-center shadow-sm">
+              <CardHeader>
+                <CardTitle className="text-lg font-semibold text-foreground">Full-Stack AI Expertise</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm leading-relaxed text-foreground/70">
+                  From models and hardware to software, applications, and the investment landscape, we understand the entire AI ecosystem.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="border border-border/60 bg-white/95 text-center shadow-sm">
+              <CardHeader>
+                <CardTitle className="text-lg font-semibold text-foreground">Business + Engineering DNA</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm leading-relaxed text-foreground/70">
+                  With degrees spanning business and engineering, we combine business thinking with deep technical expertise to convert challenges into wins.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
         </div>
 
         <div className="space-y-8 rounded-3xl border border-border/60 bg-white/95 p-10 shadow-sm">
           <div className="space-y-3 text-center md:text-left">
             <h2 className="text-2xl font-semibold">Meet the team</h2>
             <p className="text-base text-foreground/75">
-              We started Data Buddies after years inside fast-moving teams. We know the grind of manual work, and we build
-              automations that feel supportive, not stressful.
+              Data Buddies helps lean teams boost revenue, clear bottlenecks, and win back time with AI that feels simple, useful, and human.
             </p>
           </div>
           <div className="grid gap-10 md:grid-cols-2">
@@ -97,8 +142,9 @@ export default function AboutPage() {
                           href={`https://x.com/${twitter}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="mt-1 inline-block text-sm text-blue-600 hover:underline"
+                          className="mt-1 inline-flex items-center gap-1 text-sm text-foreground/70 hover:text-foreground hover:underline"
                         >
+                          <XLogo className="h-3 w-3" />
                           @{twitter}
                         </a>
                       )}
@@ -111,7 +157,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="space-y-8 rounded-3xl border border-border/60 bg-white/95 p-10 shadow-sm">
+        <div className="space-y-8">
           <div className="space-y-3 text-center md:text-left">
             <h2 className="text-2xl font-semibold">Our philosophy</h2>
             <p className="text-base text-foreground/75">

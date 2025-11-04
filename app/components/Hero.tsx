@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 
 import { Button } from "./ui/button";
+import BookCallButton from "./BookCallButton";
 
 export default function Hero() {
   return (
@@ -18,16 +18,7 @@ export default function Hero() {
             </p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-            <Button asChild size="lg">
-              <Link
-                href="https://cal.com/data-buddies-solutions/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Book a strategy call
-                <ArrowUpRight className="h-4 w-4" />
-              </Link>
-            </Button>
+            <BookCallButton iconVariant="arrow-up-right" />
             <Button asChild variant="secondary" size="lg">
               <Link href="#process">See how it works</Link>
             </Button>

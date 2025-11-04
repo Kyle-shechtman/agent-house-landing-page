@@ -1,9 +1,10 @@
 import { MetadataRoute } from "next";
 
 import { posts } from "./blog/posts";
+import { SITE_CONFIG } from "@/lib/config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://databuddiessolutions.com";
+  const baseUrl = SITE_CONFIG.baseUrl;
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {

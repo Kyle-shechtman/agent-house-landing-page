@@ -15,6 +15,63 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
+    slug: "vibe-code-to-production",
+    title: "You Can't Vibe Code to Production",
+    description:
+      "Vibe coding promised anyone could build apps by talking to AI. Reality was different. Here's what actually works.",
+    readingTime: "6 min read",
+    date: "2025-11-04",
+    tags: ["AI development", "Context engineering"],
+    sections: [
+      {
+        heading: "The Beautiful Lie",
+        paragraphs: [
+          "Vibe coding is nothing short of revolutionary. It promises to level the playing field, to give anyone access to the software economy. In theory, a 13-year-old really can build a multi-million dollar app over a weekend.",
+          "Seven years ago in university, I dropped Programming 1 after three weeks. The syntax, the IDE, even understanding how code became a real application felt foreign. Today, I build software people actually pay for. What changed wasn't me learning to code the old way. It was discovering something the vibe coders missed: context engineering.",
+          "For about two weeks, it felt like magic for me. \"Make me a todo app.\" Done. \"Add user authentication.\" Sure. \"Make it look modern.\" Gorgeous.",
+          "Then I tried to connect the pieces. The authentication system didn't know how to talk to my database. The database schema didn't match my UI's data structure. The frontend worked locally but exploded on Vercel. Beautiful on the surface, broken underneath.",
+          "The problem wasn't the AI's capability. It was that vibe coding treats software like isolated paintings when it's actually interconnected plumbing. You can generate perfect components all day, but if they don't know how to talk to each other, you've built nothing.",
+        ],
+      },
+      {
+        heading: "The Shift",
+        paragraphs: [
+          "After watching projects implode, I started using AI differently. I stopped asking it to build things and began using it to think with me.",
+          "That's when I discovered the difference: AI doesn't need more power, it needs more context. It thrives when you narrow the lane, not when you open the highway. There's a massive difference between saying \"make a million-dollar chess simulator\" and saying \"build a Next.js web app styled with Tailwind, tested with Vitest, and deployed on Vercel.\"",
+          "One gives it direction. The other leaves it wandering.",
+          "This became my workflow, not prompting, but architecting through conversation. Each session became a teaching exchange. I taught the AI my constraints, my stack, my deployment target. It taught me patterns, syntax, and best practices. We researched together. We planned together. We worked together.",
+        ],
+      },
+      {
+        heading: "How it Actually Works",
+        paragraphs: [
+          "Vibe coding is karaoke. Context engineering is jazz. Instead of \"build me an app,\" the conversation becomes:",
+          "\"I need a Next.js application with Tailwind styling. Let's think through the architecture first. We're deploying to Vercel, so we need to consider their edge functions. The database will be PostgreSQL. How should we structure the API routes to handle authentication flow?\"",
+          "You're not prompting. You're architecting through conversation.",
+          "AI helps you research the ecosystem. You learn why Next.js App Router matters. Why Tailwind's utility classes scale. How Vitest catches edge cases. Each response deepens your understanding while narrowing the AI's focus.",
+          "Then and only then you build. Component by component. Test by test. Each piece is aware of its place in the system. Every production app has a dialogue history. Not a prompt. A conversation.",
+        ],
+      },
+      {
+        heading: "The Moment Everything Changed",
+        paragraphs: [
+          "The moment I knew everything had changed wasn't when my app compiled. It was when a stranger paid for something I'd built through conversation.",
+          "I finally understood what I'd been missing in Programming 1. Code isn't syntax. It's systems thinking expressed through language. Context engineering taught me to think in systems while the AI handled the syntax.",
+        ],
+      },
+      {
+        heading: "The Future Isn't What They Promised",
+        paragraphs: [
+          "The future of software isn't about replacing programmers or democratizing code through vibe coding. It's about evolution. The best builders of tomorrow won't be those who memorize syntax or those who prompt blindly. They'll be the ones who can architect through conversation, who can teach an AI their vision while learning from its process.",
+          "They'll be context engineers. Vibe coding gave us wings but not the discipline to fly straight. Context engineering provides both the power and the flight plan. The revolution isn't coming. It's here, but it looks nothing like what they promised.",
+          "Ready to build AI systems the right way? <a href='/' class='text-accent hover:underline'>Data Buddies Solutions</a> can help you architect AI automations that actually make it to production.",
+        ],
+      },
+    ],
+    takeaway:
+      "Stop vibe coding. Start context engineering. The best AI-built software comes from architectural conversation, not wishful prompting.",
+  },
+  {
     slug: "from-sequential-to-parallel",
     title: "From Sequential to Parallel: Why Your Business Needs to Think Like a GPU",
     description:

@@ -1,0 +1,101 @@
+[00:00:00.649] Server  LOG      ✓ Ready in 450ms
+[00:00:01.533] Server  ERROR    ⨯ ./agent-house-landing-page/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at ot (/Users/chasefagen/agent-house-landing-page/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+
+Import trace:
+  Client Component Browser:
+    ./agent-house-landing-page/app/globals.css [Client Component Browser]
+    ./agent-house-landing-page/app/layout.tsx [Server Component]
+
+
+[00:00:02.306] Browser ERROR   uncaughtError: Error: ./agent-house-landing-page/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at ot (/Users/chasefagen/agent-house-landing-page/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+
+Import trace:
+  Client Component Browser:
+    ./agent-house-landing-page/app/globals.css [Client Component Browser]
+    ./agent-house-landing-page/app/layout.tsx [Server Component]
+
+
+[00:00:02.407] Browser ERROR   ./agent-house-landing-page/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at ot (/Users/chasefagen/agent-house-landing-page/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+
+Import trace:
+  Client Component Browser:
+    ./agent-house-landing-page/app/globals.css [Client Component Browser]
+    ./agent-house-landing-page/app/layout.tsx [Server Component]
+[00:00:02.573] Browser ERROR   ./agent-house-landing-page/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/chasefagen/agent-house-landing-page/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/agent-house-landing-page/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/agent-house-landing-page/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/chasefagen/agent-house-landing-page/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/agent-house-landing-page/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./agent-house-landing-page/app/globals.css [Client Component Browser]
+    ./agent-house-landing-page/app/layout.tsx [Server Component]
+[00:00:39.818] Server  LOG      ✓ Compiled in 300ms
+[00:00:40.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:24.616] Server  LOG      ✓ Compiled in 37ms
+[00:10:08.082] Server  LOG      ✓ Compiled in 0ms
+[00:13:03.746] Server  LOG      ✓ Compiled in 41ms
+[00:49:04.497] Server  LOG      ✓ Compiled in 100ms
+[00:50:23.382] Server  LOG      ✓ Compiled in 34ms
+[00:50:29.152] Server  LOG      ✓ Compiled in 41ms
+[00:50:29.965] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:18.098] Server  LOG      ✓ Compiled in 27ms
+[00:52:54.833] Server  LOG      ✓ Compiled in 24ms
+[00:52:55.271] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:37.159] Server  LOG      ✓ Compiled in 66ms
+[00:53:37.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:44.465] Server  LOG      ✓ Compiled in 32ms
+[00:54:51.876] Server  LOG      ✓ Compiled in 32ms
+[00:55:27.137] Server  LOG      ✓ Compiled in 28ms
+[00:55:27.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:06.852] Server  LOG      ✓ Compiled in 31ms
+[00:56:30.822] Server  LOG      ✓ Compiled in 36ms
+[00:56:55.364] Server  LOG      ✓ Compiled in 89ms
+[00:59:18.823] Server  LOG      ✓ Compiled in 40ms
+[00:59:23.984] Server  ERROR    ⨯ ReferenceError: X is not defined
+[00:59:24.131] Browser ERROR   uncaughtError: ReferenceError: X is not defined
+[00:59:27.184] Server  LOG      ✓ Compiled in 29ms
+[00:59:27.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:43.148] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:09.123] Server  LOG      ✓ Compiled in 336ms
+[01:07:42.991] Server  LOG      ✓ Compiled in 219ms
+[01:10:46.390] Server  LOG      ✓ Compiled in 105ms
+[01:10:54.101] Server  LOG      ✓ Compiled in 113ms
+[01:11:07.522] Server  LOG      ✓ Compiled in 207ms
+[01:11:26.178] Server  LOG      ✓ Compiled in 50ms
+[01:13:22.732] Server  LOG      ✓ Compiled in 110ms
+[01:13:30.381] Server  LOG      ✓ Compiled in 178ms
+[01:13:37.641] Server  LOG      ✓ Compiled in 18ms
+[01:13:46.335] Server  LOG      ✓ Compiled in 44ms
+[01:13:55.781] Server  LOG      ✓ Compiled in 97ms
+[01:14:12.957] Server  LOG      ✓ Compiled in 39ms

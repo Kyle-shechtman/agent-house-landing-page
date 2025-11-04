@@ -8,6 +8,7 @@ import { Menu, X } from "lucide-react";
 
 import { buttonVariants, Button } from "./ui/button";
 import { cn } from "@/lib/utils";
+import BookCallButton from "./BookCallButton";
 
 const navLinks = [
   { href: "/#problems", label: "Why Teams Call Us" },
@@ -48,15 +49,13 @@ export default function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-2">
-          <Button asChild size="sm" className="hidden md:inline-flex">
-            <Link
-              href="https://cal.com/data-buddies-solutions/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Book a Strategy Call
-            </Link>
-          </Button>
+          <BookCallButton
+            size="sm"
+            iconVariant="none"
+            className="hidden md:inline-flex"
+          >
+            Book a Strategy Call
+          </BookCallButton>
           <Button
             variant="ghost"
             size="icon"
@@ -106,20 +105,13 @@ export default function Header() {
                     {label}
                   </Link>
                 ))}
-                <Button
-                  asChild
+                <BookCallButton
                   size="lg"
+                  iconVariant="none"
                   className="w-full rounded-2xl text-base"
-                  onClick={() => setMobileNavOpen(false)}
                 >
-                  <Link
-                    href="https://cal.com/data-buddies-solutions/30min"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Book a Strategy Call
-                  </Link>
-                </Button>
+                  Book a Strategy Call
+                </BookCallButton>
               </nav>
             </div>
           </div>
